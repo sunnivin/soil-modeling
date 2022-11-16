@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "symbolic-computations"
+version = "0.1.0"
+description = "Python exampels of some relevant computations in for the course soil modeling"
+authors = ["Sunniva Indrehus <sunniva.indrehus@ngi.no>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "symbolic_computations"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sympy = "^1.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
